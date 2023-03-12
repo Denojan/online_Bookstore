@@ -1,0 +1,178 @@
+/*sheet 02-Home*/
+a{
+	color : black;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+/*body*/
+
+
+/* Slideshow start */
+* {box-sizing:border-box}
+
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border-radius:20px;
+}
+
+.slides {
+  display: none ;
+  width: 100%
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 4px 4px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.prev:hover, .next:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+/*slide numbers*/
+.numtext {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  padding: 4px 4px;
+  top: 0;
+}
+
+/* The dots */
+.dots {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dots:hover {
+  background-color: grey;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+/*Slider end*/
+
+
+/*division 01*/
+.body1 {
+	width:100%;
+	display: box;
+}
+.bodyii{
+	width : 33.3%;
+	float: left;
+	display: inline;
+	font-family: "Papyrus";
+	font-size:12;
+
+}
+
+/*Division 02*/
+.body2:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.prof{
+
+	border-radius: 50%;
+}
+.link1 {
+	background-image: linear-gradient(to right, #F9E79F , #F9E79F);
+	border: none;
+	color: grey;
+	text-align: center;
+	font-family: papyrus;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right:30px;
+	margin-bottom: 30px;
+	transition-duration: 0.5s;
+	Opacity: 0.8;
+ 
+}
+.link1:hover {
+	color: black;
+	Opacity: 1.0;
+}
+
+.bttn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F9E79F;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  font-family: papyrus;
+  padding: 20px , 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px 5px 20px 5px;
+}
+
+.bttn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bttn span:after {
+  content: '\00bb'; /*css entity - entity name resource: W#schools*/
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bttn:hover span {
+  padding-right: 25px;
+}
+
+.bttn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Division 03- in case*/
+.body3 {
+	width: auto;
+}

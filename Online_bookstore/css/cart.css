@@ -1,0 +1,56 @@
+.cart-column-left{
+    flex: 70%;
+    max-width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.cart-column-right{
+    flex: 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.cart-total-cal-table{
+    padding: 20px;
+    border: 1px solid #dddddd;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.cart-total-cal-title-box{
+    margin-bottom: 15px;
+}
+
+.cart-total-cal-title{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.cart-total-cal-data-box{
+    margin-bottom: 10px;
+}
+
+.cart-total-cal-data-txt{
+    font-size: 20px;
+}
+
+.cart-total-cal-data-box-main{
+    margin-top: 20px;
+    border-top: 1px solid #dddddd;
+    padding-top: 15px;
+}
+
+.cart-total-cal-data-txt-main{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1200px){
+    .cart-column-left,.cart-column-right{
+        flex: 100%;
+        max-width: 100%;
+    }
+}

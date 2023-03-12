@@ -1,0 +1,109 @@
+/* ----- Header Section ---- */
+.header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.sub-header{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid #000000;
+}
+
+.header-left{
+    margin-right: auto;
+}
+
+.header-right{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.header-logo-box-first{
+    width: 220px;
+    margin-right: 20px;
+}
+
+.header-logo-first-img{
+    width: 100%;
+}
+
+.header-logo-box-second-title{
+    font-size: 65px;
+    font-family: "Papyrus", fantasy,bold;
+    font-weight: 600;
+}
+
+.header-logo-box-second-sub-title{
+    font-size: 20px;
+    font-family: "Papyrus", fantasy,bold;
+    font-weight: 600;
+}
+
+.header-toggle-box{
+    width: 70px;
+}
+
+.header-toggle-icon{
+    width: 100%;
+}
+
+.header-toggle-box{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.header-right-account-data{
+    margin-left: 50px;
+}
+
+.header-right-account-img-box{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.header-right-account-img{
+    width: 100%;
+}
+
+.header-right-account-btn-box{
+    margin: 0px 5px;
+}
+
+.header-right-account-btn{
+    color: #000000;
+}
+
+/* ----- Header Second ----- */
+.header-second{
+    width: 100%;
+}
+
+.header-second-sub{
+    padding: 0px 0px;
+    background: linear-gradient(to right, #AED6F1 , #F9E79F);
+}
+
+.header-second-left{
+    width: 75%;
+}
+
+.header-second-right{
+    margin-right: 20px;
+}
+
+.header-second-menu-item{
+    padding: 15px 20px;
+    color: #333333;
+    font-size: 15px;
+    font-weight:500;
+    cursor: pointer;
+}
+
+.header-second-menu-item:hover{
+    background: #F9E79F;
+}

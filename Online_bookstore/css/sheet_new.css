@@ -1,0 +1,166 @@
+body {
+	background-image: url("../Images/bg.webp");
+	background-repeat: no-repeat;
+	background-color: white;
+	
+}/*Bokdy Style*/
+
+
+section .contentBx{
+	display: flex;
+	width: 50%;
+	height: 50%;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	margin: 120px 0;
+}
+section .contentBx .form-container{
+	width:50%;
+}
+section .contentBx .form-container h3{
+	font-size: 20px;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-family: "Lucida Handwriting", cursive;
+	margin-left: 120pt;
+}
+
+section .contentBx. form-container .inputBx{
+	margin-bottom:20%;
+}
+
+section .contentBx .form-container .inputBx span{
+	font-size: 17px;
+	margin-bottom: 2px;
+	display:inline-block;
+	color:#607d8b;
+	font-weight:300;
+	letter-spacing: 1px;
+}
+section .contentBx .form-container .inputBx input{
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid #607d8b;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color:#607d8b;
+	background: transparent;
+	border-radius: 30px;
+}
+section .contentBx .form-container .inputBx input[type="login"]{
+   background: #ff4584;
+   color: #fff;
+   outline: none;
+   border: none;
+   font-weight: 500;
+   cursor: pointer;
+   font-size: 16px;
+}
+section .contentBx .form-container .inputBx input[type="login"]:hover{
+	background: #f53677;
+}
+section .contentBx .form-container .remember{
+    margin-bottom: 10px;
+	color:#607d8b;
+	font-weight:400;
+	font-size: 15px;
+}
+section .contentBx .form-container .inputBx p{
+	color: #607d8b;
+}
+section .contentBx .form-container .inputBx p a{
+	color: #f53677;
+}
+section .contentBx .form-container h4{
+	
+	text-align: center;
+	margin: 50px 0 10px;
+	font-weight: 500;
+}
+section .contentBx .form-container .sci{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section .contentBx .form-container .sci li{
+	list-style: none;
+	width: 55px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #607d8b;
+	border-radius: 50%;
+	margin: 0 20px;
+	cursor: pointer;
+}
+section .contentBx .form-container .sci li a:hover{
+	background: #ff4584;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+section .contentBx.form-container .sci li img{
+	transform: scale(0.5);
+	filter: invert(1);
+
+}
+	
+	
+/*footer*/
+* {
+  box-sizing: border-box;
+}
+.foot{
+	background-color: #AED6F1;
+	Opacity: 0.8;
+	float: left;
+	width: 20%;
+	padding: 10px;
+	height: 200px;
+}
+
+.myFooter:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    width: 100%;
+  }
+
+
+footer{	
+	Opacity: 0.8;
+	background-color: #AED6F1;
+	font-family: calibri;
+	font-size: 11pt;
+}	
+}
+.link{
+	display: inline;
+	margin-left: 20pt;
+	margin-right: 40pt;
+	margin-bottom: 0pt;
+	width: auto;
+}
+/*Buttons*/
+.btn {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #BFD3FA;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.18);
+}

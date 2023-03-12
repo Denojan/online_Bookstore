@@ -1,0 +1,62 @@
+h2{
+	font-family: "papyrus", fantasy, bold;
+	font-size: 44px;
+	text-align:center;	
+}
+h3{
+	font-family: papyrus;
+	font-size: 33px;
+	text-align: left;
+}
+.aboutp {
+	font-family: Verdana;
+	font-size:14px;
+}
+p {
+	margin-right: 60px;
+	margin-left: 60px;
+	line-height: 1.5;
+}
+
+.acc {
+	width: 300px;
+	float: center;
+	
+}
+.prof {
+	border-radius: 50%
+}
+
+.form{
+	border: 2px solid;
+	border-radius: 10px;
+	border-color:black;
+	width: 70%;
+}
+.in_form {
+	border: 2px solid;
+	border-radius: 20px;
+	border-color:black;
+	width: 50%;
+	height:40px;
+	padding: 12px;
+	margin-left: 40px;
+	font-family:Verdana;
+}
+
+label {
+	font-family : papyrus;
+	margin: 25px;
+}
+
+.radio {
+	margin-left: 30px;
+	margin-right: 3px;
+}
+.sub {
+	border-radius: 20px;
+	font-family: papyrus;
+	font-size: 16px;
+	margin-left: 700px;
+	margin-bottom:20px;
+}

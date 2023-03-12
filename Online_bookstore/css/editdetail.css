@@ -1,0 +1,194 @@
+ /*Body of the user account page format*/
+ body {font-family: Arial, Helvetica, sans-serif;}
+*{box-sizing: border-box;}
+
+/*Design for the account holder displaying details*/
+.details{
+	
+	font-size:20px;
+}
+
+/*Design for the account holder username displaying detail*/
+.user{
+	color:red;
+	font-size:40px;
+}
+
+.editButton{
+	text-align:center;
+}
+
+/*Format for the input type */
+input[type=text], input[type=password], input[type=email], input[type=phone] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+
+/*Format for the only search bar input type */
+input.search[type=text]{
+	 float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+	width:40%;
+	
+}
+
+/*Format for the input type submit*/
+input[type=submit]{
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 16px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: white; 
+  color: black; 
+  width:40%;
+}
+
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=phone]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/*Overtouch color for input type submit*/
+input[type=submit]:hover{
+	background-color: #4267B2;
+	color:white;
+	outline: none;
+}
+
+/*Overtouch color for input type submit which is in delete account*/
+input.delete[type=submit]:hover{
+	background-color: red;
+	color:white;
+	outline: none;
+}
+
+/* Set a style for all buttons except delete button*/
+button.button5 {
+  background-color: white;
+  color: black;
+  margin: 10px 10px 16px 0px;
+  cursor: pointer;
+  width: 20%;
+  transition-duration: 0.4s;
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 6px;
+  text-align:center;
+  
+}
+
+/*Style for overtouch buttons except delete button*/
+.button5:hover {
+  background-color: #4267B2;
+  color: white;
+ 
+}
+
+/*Style for delete button*/
+button.button6 {
+  background-color: white;
+  color: black;
+  margin: 10px 10px 16px 0px;
+  cursor: pointer;
+  width: 20%;
+  transition-duration: 0.4s;
+  border: 1px solid black;
+  padding: 12px;
+  border-radius: 6px;
+  text-align:center;
+  
+}
+
+/*Style for overtouch buttons for delete button*/
+.button6:hover {
+  background-color:red;
+  color: white;
+ 
+}
+
+/*Error message */
+.error{
+	color:red;
+	font-size:20px;
+}
+
+/*Success message */
+.success{
+	color:green;
+	font-size:20px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #9E9B9B;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto 10% auto; 
+  border: 1px solid #888;
+  width: 60%; 
+}
+
+/* Style the horizontal ruler */
+hr {
+  border-top: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+

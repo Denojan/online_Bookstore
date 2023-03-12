@@ -1,0 +1,134 @@
+/* Global Classes */
+.product-header-title-box{
+    margin-left: 20px;
+}
+
+.product-header-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #333333;
+}
+
+/* ----- Explorer Body Section ----- */
+.explorer-column-left{
+    flex: 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.explorer-column-middle{
+    flex: 25%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+.explorer-column-right{
+    flex: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+/* ----- Explorer Navigation Bar ----- */
+.navigation-menu-bar{
+    width: 100%;
+    height:100vh;
+    background-image: url("../images/bg.webp");
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+.navigation-sub-menu{
+    padding-bottom: 30px;
+}
+
+.navigation-sub-menu-item{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.navigation-sub-menu-item-radio-box{
+    margin-right: 10px;
+}
+
+.navigation-sub-menu-item-radio{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.navigation-sub-menu-item-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navigation-menu-footer{
+    padding-top: 20px;
+    border-top: 2px solid #000000;
+}
+
+.navigation-menu-footer-text-box{
+    margin-bottom: 20px;
+}
+
+/* ----- Product Section ----- */
+.product-table{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.product-table:hover{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+}
+
+.product-image-box{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-meta-data-section{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.product-meta-data-name{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.product-meta-data-price{
+    font-weight: 500;
+    color: #2196F3;
+}
+
+@media screen and (max-width: 1200px){
+    .explorer-column-left{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .explorer-column-middle{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .explorer-column-right{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .navigation-sub-menu{
+        margin-top: 100px;
+    }
+}

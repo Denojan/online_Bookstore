@@ -1,0 +1,179 @@
+body {
+	background-image: url("../Images/bg.webp");
+	background-repeat: no-repeat;
+	background-color: white;
+	
+}/*Bokdy Style*/
+
+.logo {
+	display: inline;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	width: auto;
+}/*Website logo*/
+.logo2{
+	display: inline;
+	margin-left: 40pt;
+	margin-right: 0pt;
+	margin-top:90pt;
+	margin-bottom: 30pt;
+	width: auto;
+}/*wishlist and cart*/
+h1 {
+	display: inline;
+	font-size: 90px;
+	font-family: "Papyrus", fantasy,bold;
+	margin-top: 0px;
+	margin-left: 100px;
+	padding : 0px;
+}
+h2 {
+	display: inline;
+	font-size: 50px;
+	font-family: "Papyrus", fantasy,bold;
+	margin-top: 0px;
+	margin-left: 10px;
+	padding : 0px;
+}
+h3{
+	display: block;
+	font-size: 20px;
+	font-family: "Lucida Handwriting", cursive;
+	margin-top : 0px;
+	margin-left: pt;
+	padding-top: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+/*Header columns*/
+.headercol1{
+	width:60%;
+	float: left;
+}
+.headercol3{
+	width:20%;
+	float: left;
+}
+.headercol2{
+	width:20%;
+	float: right;
+}
+.headercol4{
+	width:40%;
+	float: right;
+}
+.headercol5{
+	width:40%;
+	float: left;
+}
+/*End header columns*/
+.headercol:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+h3{
+	display: block;
+	font-size: 20px;
+	font-family: "Lucida Handwriting", cursive;
+	margin-top : 0px;
+	margin-left: pt;
+	padding-top: 0px;
+}
+hr{
+  border: 1px solid black;
+}
+
+ul.menu{
+	list-style-type: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #AED6F1;
+	background-image: linear-gradient(to right, #AED6F1 , #F9E79F);
+	
+}
+li.menu{
+	float: left;
+}
+
+li a{
+	color: #34495E;
+	display: block;
+	text-align: center;
+	padding:15px 20PX;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #FCF3CF;
+}
+
+.menu a.active {
+	background-color: #2196F3;
+	color: white;
+}
+.menu input[type=text] {
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+/*footer*/
+* {
+  box-sizing: border-box;
+}
+.foot{
+	background-color: #AED6F1;
+	Opacity: 0.8;
+	float: left;
+	width: 20%;
+	padding: 10px;
+	height: 200px;
+}
+
+.myFooter:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    width: 200%;
+  }
+
+
+footer{	
+	Opacity: 0.8;
+	background-color: #AED6F1;
+	font-family: calibri;
+	font-size: 11pt;
+}	
+}
+.link{
+	display: inline;
+	margin-left: 20pt;
+	margin-right: 40pt;
+	margin-bottom: 0pt;
+	width: auto;
+}
+/*Buttons*/
+.btn {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #BFD3FA;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.18);
+}

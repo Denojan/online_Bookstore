@@ -1,0 +1,49 @@
+.book1 {
+	background-color: white;
+	float: left;
+	background: rgba(244, 241, 220, 0.4); 
+	border: 2px solid;
+	border-radius: 20px;
+	border-color:black;
+	width: 70%;
+	margin-left: 10%;
+	font-family:Papyrus;
+	margin: 40px;
+}
+
+.book2 {
+	background-color: white;
+	float: right;
+	background: rgba(223, 244, 220, 0.4); 
+	border: 2px solid;
+	border-radius: 20px;
+	border-color:black;
+	width: 70%;
+	margin-left: 10%;
+	font-family:Papyrus;
+	margin: 40px;
+}
+
+.pref {
+	font-family: papyrus;
+	font-size:18px;
+	text-align:left;
+	padding-left: 200px;
+}
+
+
+.book3 {
+	
+	float: right;
+	background: rgba(240, 229, 199, 0.1); 
+	width: 100%;
+	margin-left: 10%;
+	font-family:Verdana;
+	margin: 40px;
+	text-align:center;
+	font-size: 12px;
+}
+.bookpic {
+	float: center;
+	margin: 20px;
+}
